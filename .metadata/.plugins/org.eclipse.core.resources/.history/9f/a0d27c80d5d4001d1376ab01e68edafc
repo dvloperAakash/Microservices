@@ -1,0 +1,5 @@
+package com.microservices.ratingservice.services.impl;
+
+public class RatingServiceImpl {
+
+}

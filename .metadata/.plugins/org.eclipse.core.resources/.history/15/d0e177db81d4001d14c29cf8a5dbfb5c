@@ -1,0 +1,5 @@
+package com.microservices.hotelservice.service.impl;
+
+public class HotelServiceImpl {
+
+}

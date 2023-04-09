@@ -1,0 +1,16 @@
+package com.microservices.hotelservice.exceptions;
+
+import java.util.Map;
+import java.util.HashMap;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+	public ResponseEntity<Map<String,Object>>notFoundHandler(ResourceNotFoundException ex){
+		Map map = new HashMap();
+		map.put("message", ex.getMessage());
+		
+	}
+}
+

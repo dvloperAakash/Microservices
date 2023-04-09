@@ -1,0 +1,5 @@
+package com.microservices.hms.controllers;
+
+public class UserController {
+
+}

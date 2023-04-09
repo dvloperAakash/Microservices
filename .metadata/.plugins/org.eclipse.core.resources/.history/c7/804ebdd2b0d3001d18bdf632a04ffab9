@@ -1,0 +1,13 @@
+package com.microservices.hms.services.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.microservices.hms.services.payload.ApiResponse;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+	public ResponseEntity<ApiResponse>handlerResourceNotFoundException(){
+		
+	}
+}

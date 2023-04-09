@@ -1,0 +1,5 @@
+package com.microservices.hotelservice.exceptions;
+
+public class GlobalExceptionHandler {
+
+}

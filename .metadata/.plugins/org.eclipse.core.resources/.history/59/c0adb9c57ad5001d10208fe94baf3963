@@ -1,0 +1,5 @@
+package com.microservices.hms.config;
+
+public class MyConfig {
+
+}
